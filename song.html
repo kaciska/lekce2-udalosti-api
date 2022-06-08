@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>JS - homework</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
-	<link rel="stylesheet" href="song.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JS - homework</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,400i,700,700i&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="song.css" />
+  </head>
+  <body>
+    <h1>Homework</h1>
 
-	<h1>Homework</h1>
+    <p class="paragraph">V elipse spí lev.</p>
 
-	<p class="paragraph">V elipse spí lev.</p>
+    <button onclick="changeColor()" class="button">Červený po kliknutí</button>
 
-	<button onclick="changeColor()" class="button">
-		Červený po kliknutí
-	</button>
+    <button onclick="biggerFontSize()" class="button">Větší po kliknutí</button>
 
-	<button onclick="biggerFontSize()" class="button">
-		Větší po kliknutí
-	</button>	
-	
     <h2>Play song</h2>
 
-	<button class="playButton">Play</button>
-	<button class="muteButton">Mute</button>
-	<button class="lowVolumeButton">Low Volume</button>
-	<button class="middleVolumeButton">Middle Volume</button>
-	<button class="highVolumeButton">High Volume</button>
-	<button class="stopButton">Stop</button>
+    <button class="playButton">Play</button>
+    <button class="muteButton">Mute</button>
+    <button class="increaseVolumeButton">Increase Volume</button>
+    <button class="decreaseVolumeButton">Decrease Volume</button>
+    <button class="stopButton">Stop</button>
 
-	<audio id="song" src="audio/dingdingdang.mp3" preload="auto"></audio>
+    <audio id="song" src="audio/dingdingdang.mp3" preload="auto"></audio>
 
-	<script src="song.js"></script>
-
-</body>
+    <script src="song.js"></script>
+  </body>
 </html>
