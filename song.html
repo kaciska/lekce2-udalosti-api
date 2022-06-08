@@ -3,17 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>JavaScript a DOM</title>
+	<title>JS - homework</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="song.css">
 </head>
-<body onkeydown="stiskKlavesy(event)">
+<body>
 
-	<h1 onclick="zmenStyl()">Změna tříd, události</h1>
-
-	<div onmouseover="priNajetiNaCtverec()" class="zluty"></div>
-
-	<div onmouseover="priNajetiNaCtverec()" class="ctverecek zeleny"></div>
+	<h1>Homework</h1>
 
 	<p class="paragraph">V elipse spí lev.</p>
 
@@ -23,9 +19,9 @@
 
 	<button onclick="biggerFontSize()" class="button">
 		Větší po kliknutí
-	</button>
+	</button>	
 	
-	<img class="obrazek" src="obrazky/kocka.jpg">
+    <h2>Play song</h2>
 
 	<button class="playButton">Play</button>
 	<button class="muteButton">Mute</button>
@@ -36,7 +32,7 @@
 
 	<audio id="song" src="audio/dingdingdang.mp3" preload="auto"></audio>
 
-	<script src="main.js"></script>
+	<script src="song.js"></script>
 
 </body>
 </html>
